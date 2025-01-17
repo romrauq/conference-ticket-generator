@@ -16,24 +16,84 @@
 		</style>
 	</head>
 	<body>
-		<!-- Form starts -->
+		<div class="header">
+			<div class="logo-container">
+				<img src="./resources/images/logo-full.svg" alt="" />
+				<p>Coding Conf</p>
+			</div>
+		</div>
+		<div class="main-container">
+			<h1 class="heading-text default-headting-text">
+				Your Journey to Coding Conf 2025 Starts Here!
+			</h1>
+			<p class="subheading-text default-subheadting-text">
+				Secure your spot at next year's biggest coding conference.
+			</p>
 
-		Your Journey to Coding Conf 2025 Starts Here! Secure your spot at next year's biggest coding
-		conference. Upload Avatar Drag and drop or click to upload Upload your photo (JPG or PNG, max
-		size: 500KB). Full Name Email Address example@email.com GitHub Username @yourusername Generate
-		My Ticket
+			<!-- Form starts -->
+			<div class="form-container">
+				<div class="input-container upload-container">
+					<p class="input-label">Upload Avatar</p>
+					<div class="upload-input-field">
+						<img src="./resources/images/icon-upload.svg" alt="" />
+						<p class="upload-intruction-text">Drag and drop or click to upload</p>
+					</div>
 
-		<!-- Form ends -->
+					<div class="image-size-intruction-text">
+						<img src="./resources/images/icon-info.svg" alt="" />
+						<p class="image-size-text">Upload your photo (JPG or PNG, max size: 500KB).</p>
+					</div>
+				</div>
 
-		<!-- Generated tickets starts -->
+				<div class="fullname-container">
+					<p class="input-label">Full Name</p>
+					<input type="text" name="" id="" />
+				</div>
 
-		Congrats,
-		<!-- Full Name -->! Your ticket is ready. We've emailed your ticket to
-		<!-- Email Address -->
-		and will send updates in the run up to the event. Coding Conf Jan 31, 2025 / Austin, TX
+				<div class="email-container">
+					<p class="input-label">Email Address</p>
+					<input type="email" name="" id="" placeholder="example@email.com" />
+				</div>
 
-		<!-- Generated tickets ends -->
+				<div class="github-container">
+					<p class="input-label">GitHub Username</p>
+					<input type="email" name="" id="" placeholder="@yourusername" />
+				</div>
 
+				<button class="generate-button">Generate My Ticket</button>
+			</div>
+			<!-- Form ends -->
+
+			<!-- Generated tickets starts -->
+			<h1 class="heading-text dynamic-headting-text">
+				Congrats, <span class="name-highlight"></span>! <br />
+				Your ticket is ready.
+			</h1>
+			<p class="subheading-text dynamic-subheadting-text">
+				We've emailed your ticket to <span class="email-highlight"></span>
+				and will send updates in the run up to the event.
+			</p>
+
+			<div class="ticket-container">
+				<div class="logo-text-container">
+					<img src="./resources/images/logo-mark.svg" alt="" />
+					<p>Coding Conf</p>
+				</div>
+				<p class="date-venue-text">Jan 31, 2025 / Austin, TX</p>
+			</div>
+
+			<div class="user-container">
+				<img src="" alt="" id="user-image" />
+				<div class="user-info-row">
+					<p id="users-name"></p>
+					<div class="github-row">
+						<img src="./resources/images/icon-github.svg" alt="" />
+						<p id="github-username"></p>
+					</div>
+				</div>
+			</div>
+			<!-- Generated tickets ends -->
+		</div>
 		<div class="attribution">
 			Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
 			Coded by <a href="https://github.com/romrauq">John Quarmor</a>.
