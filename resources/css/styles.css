@@ -19,6 +19,7 @@
 	font-family: Inconsolata;
 	src: url("../fonts/Inconsolata-VariableFont_wdth\,wght.ttf");
 }
+body{}
 .header{}
 .logo-container{}
 .main-container{}
