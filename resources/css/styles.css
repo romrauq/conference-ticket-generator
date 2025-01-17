@@ -1,0 +1,62 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+:root {
+--Neutral-0: hsl(0, 0%, 100%)
+--Neutral-300: hsl(252, 6%, 83%)
+--Neutral-500: hsl(245, 15%, 58%)
+--Neutral-700: hsl(245, 19%, 35%)
+--Neutral-900: hsl(248, 70%, 10%)
+
+--Orange-500: hsl(7, 88%, 67%)
+--Orange-700: hsl(7, 71%, 60%)
+
+--Gradient-text: hsl(7, 86%, 67%) to hsl(0, 0%, 100%)
+}
+@font-face {
+	font-family: Inconsolata;
+	src: url("../fonts/Inconsolata-VariableFont_wdth\,wght.ttf");
+}
+.header{}
+.logo-container{}
+.main-container{}
+.heading-text{}
+.default-headting-text{}
+.subheading-text{}
+.default-subheadting-text{}
+.form-container{}
+.input-container{}
+.upload-container{}
+.input-label{}
+.upload-input-field{}
+.upload-instruction-text{}
+.image-size-instruction-text{}
+.image-size-text{}
+.fullname-container{}
+.input-label{}
+.email-container{}
+.input-label{}
+.github-container{}
+.input-label{}
+.generate-button{}
+.heading-text{}
+.dynamic-headting-text{}
+.name-highlight{}
+.subheading-text{} 
+.dynamic-subheadting-text{}
+.email-highlight{}
+.ticket-container{}
+.logo-text-container{}
+.date-venue-text{}
+.user-container{}
+.user-info-row{}
+.github-row{}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
