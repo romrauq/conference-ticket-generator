@@ -73,25 +73,16 @@ body {
 } */
 .input-label {
 }
-.text-input {
-	padding: 10px 15px;
-	border: none;
-	border-radius: 5px;
-	outline: none;
-}
-.text-input:focus {
-	border: 2px solid red;
-	outline: 2px solid purple;
-}
 .upload-input-field {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 10px 0;
 	width: 100%;
-	background-color: var(--Neutral-700);
-	border: 1px dashed white;
+	background-color: rgba(255, 255, 255, 0.1);
+	border: 1px dashed var(--Neutral-300);
 	border-radius: 5px;
+	cursor: pointer;
 }
 .upload-instruction-text {
 	text-align: center;
@@ -105,7 +96,20 @@ body {
 .image-size-text {
 	font-size: 10px;
 }
-
+.text-input {
+	color: var(--Neutral-0);
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	background-color: rgba(255, 255, 255, 0.1);
+	border: 1px solid var(--Neutral-300);
+	transition: 0.4s;
+	cursor: pointer;
+}
+.text-input:focus {
+	border: 2px solid var(--Neutral-0);
+}
 /* .fullname-container {
 } */
 
