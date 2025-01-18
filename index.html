@@ -14,15 +14,15 @@
 			<img src="./resources/images/logo-full.svg" alt="" class="logo-image" />
 		</div>
 		<div class="main-container">
-			<h1 class="heading-text default-heading-text">
+			<h1 class="heading-text default-heading-text" id="default-heading-text">
 				Your Journey to Coding Conf 2025 Starts Here!
 			</h1>
-			<p class="subheading-text default-subheading-text">
+			<p class="subheading-text default-subheading-text" id="default-subheading-text">
 				Secure your spot at next year's biggest coding conference.
 			</p>
 
 			<!-- Form starts -->
-			<div class="form-container">
+			<div class="form-container" id="form-container">
 				<div class="input-container upload-container">
 					<p class="input-label">Upload Avatar</p>
 					<div class="upload-input-field">
@@ -43,7 +43,7 @@
 
 				<div class="input-container fullname-container">
 					<p class="input-label">Full Name</p>
-					<input type="text" name="" class="text-input" id="" />
+					<input type="text" name="" class="text-input" id="fullname-input" />
 					<p class="alert-text" id="name-alert">Please enter your full name.</p>
 				</div>
 
@@ -52,7 +52,7 @@
 					<input
 						type="email"
 						name=""
-						id=""
+						id="email-input"
 						class="text-input"
 						placeholder="example@email.com"
 					/>
@@ -61,25 +61,31 @@
 
 				<div class="input-container github-container">
 					<p class="input-label">GitHub Username</p>
-					<input type="email" name="" id="" class="text-input" placeholder="@yourusername" />
+					<input
+						type="email"
+						name=""
+						id="github-input"
+						class="text-input"
+						placeholder="@yourusername"
+					/>
 					<p class="alert-text" id="github-alert">Please enter your github username.</p>
 				</div>
 
-				<button class="generate-button">Generate My Ticket</button>
+				<button class="generate-button" id="generate button">Generate My Ticket</button>
 			</div>
 			<!-- Form ends -->
 
-			<div class="output-container">
-				<!-- Generated tickets starts -->
+			<div class="output-container" id="output-container">
 				<h1 class="heading-text dynamic-heading-text">
-					Congrats, <span class="name-highlight"></span>! <br />
+					Congrats, <span class="name-highlight" id="name-output"></span>! <br />
 					Your ticket is ready.
 				</h1>
 				<p class="subheading-text dynamic-subheading-text">
-					We've emailed your ticket to <span class="email-highlight"></span>
+					We've emailed your ticket to <span class="email-highlight" id="email-output"></span>
 					and will send updates in the run up to the event.
 				</p>
 
+				<!-- Generated tickets starts -->
 				<div class="ticket-container">
 					<div class="logo-text-container">
 						<img src="./resources/images/logo-mark.svg" alt="" />
@@ -91,16 +97,17 @@
 				<div class="user-container">
 					<img src="" alt="" id="user-image" />
 					<div class="user-info-row">
-						<p id="users-name"></p>
+						<p id="name-output"></p>
 						<div class="github-row">
 							<img src="./resources/images/icon-github.svg" alt="" />
-							<p id="github-username"></p>
+							<p id="github-output"></p>
 						</div>
 					</div>
 				</div>
 				<!-- Generated tickets ends -->
 			</div>
 		</div>
+
 		<div class="attribution">
 			Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
 			Coded by <a href="https://github.com/romrauq">John Quarmor</a>.
