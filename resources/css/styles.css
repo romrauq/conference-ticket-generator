@@ -110,17 +110,22 @@ body {
 .text-input:focus {
 	border: 2px solid var(--Neutral-0);
 }
+.alert-text {
+	font-size: 10px;
+	color: var(--Orange-500);
+	display: none;
+}
 /* .fullname-container {
-} */
+	} */
 
 /* .input-label {
 } */
 
 /* .email-container {
-} */
+	} */
 
 /* .github-container {
-} */
+		} */
 
 .generate-button {
 	color: var(--Neutral-900);
