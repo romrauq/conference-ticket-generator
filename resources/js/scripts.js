@@ -15,3 +15,16 @@ const name_output = document.getElementById("name-output");
 const email_output = document.getElementById("email-output");
 const user_image = document.getElementById("user-image");
 const github_output = document.getElementById("github_output");
+
+generate_button.addEventListener("click", (event) => {
+	event.preventDefault();
+	// Assign default element variables into an array:
+	let default_elements = [heading_text_default, subheading_text_default, form_container];
+
+	// Dynamically hide default element items by looping through an array:
+	for (let index = 0; index < default_elements.length; index++) {
+		element_item = default_elements[index];
+		element_item.style.display = "none";
+	}
+	output_container.style.display = "block"; // Set output container to be displayed.
+});
