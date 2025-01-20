@@ -26,5 +26,5 @@ generate_button.addEventListener("click", (event) => {
 		element_item = default_elements[index];
 		element_item.style.display = "none";
 	}
-	output_container.style.display = "block"; // Set output container to be displayed.
+	output_container.style.display = "flex"; // Set output container to be displayed.
 });
