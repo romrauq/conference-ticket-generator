@@ -141,47 +141,82 @@ body {
 	color: var(--Neutral-0);
 	background-color: var(--Orange-500);
 }
-
 .output-container {
 	display: none;
+	flex-direction: column;
+	align-items: center;
+	margin: -25% 0 0 0;
 }
-
 .dynamic-heading-text {
 	text-align: center;
 	margin: 0 0 20px 0;
 }
-
 .name-highlight {
+	color: var(--Gradient-text);
+	color: var(--Orange-500);
 }
-
 .subheading-text {
 	text-align: center;
 }
-
-.dynamic-subheadting-text {
+.dynamic-subheading-text {
+	width: 350px;
+	margin: 0 0 60px 0;
 }
-
 .email-highlight {
+	color: var(--Orange-500);
 }
-
 .ticket-container {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	width: 320px;
+	padding: 10px;
+	background-image: url("../images/pattern-ticket.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
-
+.ticket-header-row {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
 .logo-text-container {
+	display: flex;
+	gap: 10px;
 }
-
+.ticket-logo {
+	width: 20px;
+}
+.ticket-heading {
+	font-size: 25px;
+	font-weight: bold;
+}
 .date-venue-text {
+	font-size: 10px;
+	margin: 0 0 0 30px;
 }
-
 .user-container {
+	display: flex;
+	gap: 10px;
 }
-
 .user-info-row {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
-
+.user-image {
+	width: 50px;
+	border-radius: 10px;
+}
 .github-row {
+	display: flex;
+	align-items: center;
+	height: fit-content;
 }
-
+.github-icon {
+	width: 20px;
+}
 .attribution {
 	font-size: 11px;
 	text-align: center;
