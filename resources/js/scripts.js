@@ -55,7 +55,7 @@ generate_button.addEventListener("click", (event) => {
 		email_valid = false;
 	}
 
-	// Check if the email input field has been filled:
+	// Check if the github username input field has been filled:
 	if (github_input.value != "") {
 		github_input.style.border = "1px solid hsl(252, 6%, 83%)";
 		github_alert.style.display = "none";
