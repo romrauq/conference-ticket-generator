@@ -53,6 +53,7 @@ body {
 	margin: 0 0 20px 0;
 }
 .subheading-text {
+	text-align: center;
 	margin: 0 0 30px 0;
 }
 .default-subheading-text {
@@ -71,8 +72,6 @@ body {
 }
 /* .upload-container {
 } */
-.input-label {
-}
 .upload-input-field {
 	display: flex;
 	flex-direction: column;
@@ -115,18 +114,6 @@ body {
 	color: var(--Orange-500);
 	display: none;
 }
-/* .fullname-container {
-	} */
-
-/* .input-label {
-} */
-
-/* .email-container {
-	} */
-
-/* .github-container {
-		} */
-
 .generate-button {
 	color: var(--Neutral-900);
 	font-weight: 600;
@@ -154,9 +141,6 @@ body {
 .name-highlight {
 	color: var(--Gradient-text);
 	color: var(--Orange-500);
-}
-.subheading-text {
-	text-align: center;
 }
 .dynamic-subheading-text {
 	width: 350px;
@@ -224,4 +208,74 @@ body {
 
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+@media (max-width: 475px) {
+	.header {
+		margin: 15px 0 0 0;
+	}
+	.logo-image {
+		width: 200px;
+	}
+	.main-container {
+		width: 90%;
+	}
+	.heading-text {
+		width: 100%;
+	}
+	.default-heading-text {
+		text-align: center;
+		margin: 0 0 20px 0;
+	}
+	.subheading-text {
+		font-size: 18px;
+	}
+	.form-container {
+		width: 100%;
+	}
+	.input-container {
+		gap: 10px;
+	}
+	/* .upload-container {
+} */
+	.input-label {
+		font-size: 18px;
+	}
+	.image-size-text {
+		font-size: 12px;
+	}
+	.text-input {
+		padding: 15px 15px;
+	}
+	.text-input:focus {
+		border: 2px solid var(--Neutral-0);
+	}
+	.alert-text {
+		font-size: 12px;
+	}
+	.generate-button {
+		padding: 15px 15px;
+	}
+	.output-container {
+		width: 90%;
+		margin: -25% 0 0 0;
+	}
+	.dynamic-heading-text {
+		width: 100%;
+		font-size: 30px;
+	}
+	.dynamic-subheading-text {
+		width: 100%;
+	}
+	.ticket-container {
+		padding: 20px;
+	}
+	.ticket-heading {
+		font-size: 26px;
+	}
+	.date-venue-text {
+		font-size: 12px;
+	}
+	.user-container {
+		font-size: 18px;
+	}
 }
