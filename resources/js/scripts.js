@@ -19,9 +19,6 @@ const name_output_ticket = document.getElementById("name-output-ticket");
 
 generate_button.addEventListener("click", (event) => {
 	event.preventDefault();
-	// let full_name;
-	// let email_address;
-	// let github_username;
 	let name_valid = false;
 	let email_valid = false;
 	let github_valid = false;
